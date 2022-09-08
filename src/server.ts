@@ -1,6 +1,6 @@
-import express from 'express';
+import express from 'express'
 
-const app = express();
+const app = express()
 
 app.get("/", (resquest, response) => {
     return response.json({ message: "Hello World" });
